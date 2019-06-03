@@ -459,7 +459,6 @@ section.inner {
 }
 
 
-
 .section.orange h4 ,.section.green h4{
 	color: #fcfcfc;
 }
@@ -1717,4 +1716,81 @@ i.icon-white {
 
 #main_image {
 	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+}
+
+/* Testimonials Section */
+
+#quote-carousel {
+	padding: 0 10px 30px 10px;
+	margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+	background: none;
+	color: #CACACA;
+	font-size: 2.3em;
+	text-shadow: none;
+	margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+	position: relative;
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-top: 20px;
+	margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	opacity: 0.4;
+	overflow: hidden;
+	transition: all .4s ease-in;
+	vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+	width: 128px;
+	height: 128px;
+	opacity: 1;
+	transition: all .2s;
+}
+.item blockquote {
+	border-left: none;
+	margin: 0;
+}
+.item blockquote p:before {
+	content: "\f10d";
+	font-family: 'Fontawesome';
+	float: left;
+	margin-right: 10px;
+}
+
+#testimonials {
+	padding-bottom: 0;
+	background: url(../img/black.png) 50% 0;
+}
+
+.noborder {
+	border: none;
+}
+
+#candle_pic {
+	-webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(40%);
+
+}
+
+#stag_pic {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+
+}
+
+#hen_pic {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+
 }
