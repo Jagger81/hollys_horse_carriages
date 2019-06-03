@@ -1748,7 +1748,7 @@ i.icon-white {
 	border-radius: 50%;
 	opacity: 0.4;
 	overflow: hidden;
-	transition: all .4s ease-in;
+	transition: all .8s ease-in;
 	vertical-align: middle;
 }
 #quote-carousel .carousel-indicators .active {
@@ -1793,4 +1793,17 @@ i.icon-white {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 
+}
+
+
+@media (max-width : 1000px) {
+#navbar_icon_left {
+	padding-left: 30px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+}
+
+#navbar_icon_left {
+	padding-top: 10px;
 }
