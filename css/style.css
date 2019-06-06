@@ -1807,3 +1807,28 @@ i.icon-white {
 #navbar_icon_left {
 	padding-top: 10px;
 }
+
+#gallery {
+	background: url(../img/brick-wall.jpg) 50% 0;
+}
+
+/* Gallery */
+
+.carousel-inner > .item > img{
+	margin:auto;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	text-align: center;
+}
+
+#myCarousel {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+/* End of Gallery */
+
+
+
