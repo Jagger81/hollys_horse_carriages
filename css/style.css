@@ -1809,11 +1809,18 @@ i.icon-white {
 	padding-top: 10px;
 }
 
+#background_info_1 {
+	padding:10px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius:15px;
+}
+
+
+/* Gallery */
+
 #gallery {
 	background: url(../img/gallery-bg.jpg) no-repeat center center fixed;;
 }
-
-/* Gallery */
 
 .carousel-inner > .item > img{
 	margin:auto;
