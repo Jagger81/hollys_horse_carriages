@@ -1775,6 +1775,7 @@ i.icon-white {
 
 .noborder {
 	border: none;
+	background: none;
 }
 
 #candle_pic {
@@ -1809,7 +1810,7 @@ i.icon-white {
 }
 
 #gallery {
-	background: url(../img/brick-wall.jpg) 50% 0;
+	background: url(../img/gallery-bg.jpg) no-repeat center center fixed;;
 }
 
 /* Gallery */
