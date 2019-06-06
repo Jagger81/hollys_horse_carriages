@@ -1821,6 +1821,16 @@ i.icon-white {
   	margin-right: auto;
   	width: 100%;
   	text-align: center;
+  	border-radius: 15px;
+}
+
+.thumbnail {
+	border-radius: 15px;
+}
+
+.carousel-caption{
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
 }
 
 #myCarousel {
