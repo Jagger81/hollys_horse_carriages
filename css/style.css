@@ -481,8 +481,14 @@ section.spacer {
 	color:#fcfcfc;
 }
 
-.spacer.green,.section.green {
-	background:#d11a23;               /* background colour */
+.spacer.green {
+	background: url(../img/black.png) 50% 0;
+	/*background:#d11a23;               /* background colour */
+}
+
+.section.green {
+	background: url(../img/whiskey_2.jpg) 50% 0;
+	/*background:#d11a23;               /* background colour */
 }
 
 .spacer.green,.section.green h4 {
@@ -849,6 +855,7 @@ section#about {
 .team-thumb {
 	margin-top: 26px;
 	text-align:center;
+	max-width: 55%;                  /*width change for profile pic */
 }
 
 /* (spacer) latest tweet */
