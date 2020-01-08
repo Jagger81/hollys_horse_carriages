@@ -283,6 +283,12 @@ h2.pagetitle {
 	padding: 0;
 	margin-top: 1.05em;
 }
+
+.navbar .brand img{
+	height: 60px;
+	margin-bottom: 20px;
+}
+
 .navbar .brand a {
 	padding: 0;
 	color: #fff;
@@ -324,6 +330,7 @@ ul#menu-main > li > a:hover {
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
+	color: red;
 }
 ul#menu-main > li > a:focus {
 	outline:0;
@@ -371,7 +378,7 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #050815 url(../img/coverphoto_bar3.jpg) no-repeat center center fixed;
+	background: #050815 url(../img/main_coverphoto.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -475,7 +482,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#d11a23;               /* background colour */
 }
 
 .spacer.green,.section.green h4 {
@@ -753,8 +760,8 @@ section#services .service-box h2 {
 	font-weight: 700;
 }
 
-section#services.section.orange .service-box:hover {
-	background:#f36518;
+section#services.section.orange .service-box:hover {  /*service background hover colour */
+	background:#f31818;
 }
 
 
@@ -1806,7 +1813,7 @@ i.icon-white {
 }
 
 #navbar_icon_left {
-	padding-top: 10px;
+	padding-top: 0px; /*changes made to reduce gap at top of navbar */
 }
 
 #background_info_1 {

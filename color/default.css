@@ -6,13 +6,13 @@ background:#e06d5e;
 }
 
 .navbar .brand a:hover {
-	color:#1BAC91;
+	color:red;                        /*navbar colours */
 }
 
 
 
 ul#menu-main > li > a:hover {
-	color: #1BAC91;
+	color: red;												/*navbar colours */
 }
 
 
@@ -32,7 +32,7 @@ ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.
 }
 
 .btn.btn-theme {
-	background: #26c8aa !important;
+	background: #191919 !important;
 }
 
 /* blog */
