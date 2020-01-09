@@ -1,4 +1,4 @@
-https://jagger81.github.io/hollys_horse_cariiages/
+https://jagger81.github.io/hollys_horse_carriages/
 
 Thanks for downloading this theme!
 
