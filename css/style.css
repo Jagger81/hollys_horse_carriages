@@ -1825,7 +1825,7 @@ i.icon-white {
 
 #background_info_1 {
 	padding:10px;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.97);
 	border-radius:15px;
 }
 
@@ -1862,5 +1862,12 @@ border-bottom-right-radius: 15px;
 
 /* End of Gallery */
 
+#medal{
+	max-width: 30%;
+	max-height: 30%;
+}
 
+.large_print{
+	font-size: 50px;
+}
 
