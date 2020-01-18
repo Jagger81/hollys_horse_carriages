@@ -1871,3 +1871,25 @@ border-bottom-right-radius: 15px;
 	font-size: 50px;
 }
 
+#team h4{
+	text-align: center;
+  margin-bottom: 40px;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+#holly{
+	max-width: 70%;
+	border-radius: 15%;
+	border: 15px solid #ddd;
+}
+
+#team_holly h1{
+	font-weight: bold;
+}
+
+#team_holly p{
+	font-weight: bold;
+	font-size: 20px;
+}
