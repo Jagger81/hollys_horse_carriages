@@ -126,7 +126,7 @@
 							</div>
 						</div><br>
 
-				<div class="span4 offset1">
+				<div class="span4 offset1 aligncenter">
 					<div>
 						<h2 style="color: white">We're here to <strong>Serve You!</strong></h2>
 						<p>
@@ -136,8 +136,9 @@
 							Contact Me anytime to check availability and make a booking
 						</p>
 						<p style="font-size: 200%">
-							<i class="fas fa-envelope-open"></i><span style="font-size: 50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:name@email.com" style="color: rgb(198,18,18)">infohollyshorsecarriages@gmail.com</a></span> 
-						</p>
+							<i class="fas fa-envelope-open" style="color: rgb(198,18,18);"></i><span style="font-size: 50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:name@email.com" style="color: whitesmoke">infohollyshorsecarriages@gmail.com</a></span> 
+						</p><br>
+						<button type="button" id="quote" class="btn btn-danger" onclick="window.location.href='#contact'">Request A Quote</button>
 					</div>
 				</div>
 
@@ -269,7 +270,7 @@
 						
 					<p>My business is just starting out but I have my sights set on much larger things in a couple of years to come.</p>
 					
-				</div>
+				</div><br>
 				<div class="span6 aligncenter flyRight">
 					<img src="img/holly.jpg" id="holly" alt="Holly Ward"/>
 				</div>
@@ -291,14 +292,14 @@
 		<!-- chico section -->
 		<section id="team" class="section orange">
 			<div class="container">
-				<div class="row">
+				<div class="row"><br>
 
 					<div class="span6 aligncenter flyLeft">
 						<img src="img/chico.jpg" id="holly" alt="Holly Ward"/>
 					</div>
 
 					<div id="team_holly" class="span6 aligncenter flyRight">
-						<h1>Chico</h1>
+						<h1 style="color: rgba(245, 245, 245, 0.479);">Chico</h1>
 						<p>Chico is a 5 year old cross breed. He has a witty personality and is known for his character. He enjoys a carrot or two (although he's partial to a chicken nugget or two), then likes to be left alone.</p>
 						<p>He is a hard worker and is enjoying getting to look stunning in many different coloured plumes, although I think pink suits him very well.</p>
 						<p>Chico will be your trusty steed for your occassion. He looks forward to meeting you and helping to make your day or night the best it can be.
@@ -837,11 +838,10 @@
 	
 	<!-- section: contact -->
 	<section id="contact" class="section green">
-		<div class="container">
+		<div class="container aligncenter">
 			<h4>Get in Touch</h4>
-			<p>
-				Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei
-				eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
+			<p style="font-weight: bold; font-size: medium;">
+				Feel free to get in touch with us anytime, by using the Contact Form below or the contact details provided.
 			</p>
 			<div class="blankdivider30">
 			</div>
@@ -851,27 +851,50 @@
 						
 						<form action="https://formcarry.com/s/TPep-UlXc4W" method="post" accept-charset="UTF-8">
 							<div class="row">
+
 								<div class="span6">
 									<div class="field your-name form-group">
 										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 										<div class="validation"></div>
 									</div>
+
 									<div class="field your-email form-group">
 										<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
 										<div class="validation"></div>
 									</div>
+
+									<div class="field your-phone form-group">
+										<input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" data-rule="email" data-msg="Please enter a valid phone number" />
+										<div class="validation"></div>
+									</div>
+
 									<div class="field subject form-group">
 										<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
 										<div class="validation"></div>
 									</div>
-								</div>
-								<div class="span6">
+
 									<div class="field message form-group">
 										<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
 										<div class="validation"></div>
 									</div>
 									<input type="submit" value="Send message" class="btn btn-theme pull-left">
 								</div>
+
+								<div class="span6 alignleft">
+									<iframe src="https://snazzymaps.com/embed/213175" width="100%" height="300px" style="border:none;"></iframe><br><br>
+								
+								<p style="font-weight: bold; color: rgba(12, 11, 11, 0.658);"><i class="fas fa-envelope-open icon-2x"></i>
+									<a href="mailto:name@email.com">&nbsp;infohollyshorsecarriages@gmail.com</a>
+								</p><br>
+
+								<p style="font-weight: bold; color: rgba(12, 11, 11, 0.658);"><i class="fas fa-phone icon-2x"></i>
+									&nbsp;086########
+								</pstyle="font-weight: bold;><br><br>
+
+								<p style="font-weight: bold;color: rgba(12, 11, 11, 0.658);"><i class="fas fa-map-marker icon-2x"></i>
+								&nbsp;&nbsp;	Dublin 8
+								</p>
+							
 							</div>
 						</form>
 					</div>
@@ -885,10 +908,9 @@
 			<div class="row">
 				<div class="span6 offset3">
 					<ul class="social-networks">
+						<li><a href="#"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
 						<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
 						<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
 					</ul>
 					<p class="copyright">
 						&copy; Maxim Theme. All rights reserved.

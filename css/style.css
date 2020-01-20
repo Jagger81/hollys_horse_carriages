@@ -1080,8 +1080,8 @@ footer ul.social-networks li a i.icon-twitter:hover {
 	background: #5ad2eb;
 	color: #fff;
 }
-footer ul.social-networks li a i.icon-dribbble:hover {
-	background: #f57b71;
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #251abe;
 	color: #fff;
 }
 footer ul.social-networks li a i.icon-pinterest:hover {
@@ -1892,4 +1892,8 @@ border-bottom-right-radius: 15px;
 #team_holly p{
 	font-weight: bold;
 	font-size: 20px;
+}
+
+#quote {
+	background-color: rgb(198,18,18);
 }
