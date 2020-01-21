@@ -1693,7 +1693,10 @@ i.icon-white {
  section#services h2, section#services ul {
  text-align: center;
 }
-		
+
+#main_image {
+    display: none;
+}		
 
 /* team */
 		
