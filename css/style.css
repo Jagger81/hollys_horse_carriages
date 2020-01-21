@@ -60,7 +60,7 @@ body {
 	color: #444;
 	font-size: 16px;
 	font-weight:300;
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -139,7 +139,7 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 /* =========================================================
 02. Typography
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #312f2b;
 	line-height:1.1em;
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 h1 {
 	font-size: 36px;
@@ -222,7 +222,7 @@ h6 {
 }
 strong {
 	font-weight:700;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -232,7 +232,7 @@ small {
 }
 em {
 	font-style: normal;
-	font-family: 'Open Sans';
+	font-family: 'Ubuntu', sans-serif;
 }
 .muted {
 	color: #A5A5A2;
@@ -364,7 +364,7 @@ ul#menu-main > li > a:focus {
 }
 #header-wrapper h2 {
 	color: #fff;
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -414,7 +414,7 @@ header .logo {
 
 #header-wrapper input[type=text] {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
@@ -944,7 +944,7 @@ section#about {
 
 #contact-form input[type=text], .contactForm textarea {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Ubuntu', sans-serif;
 	border: 0;
 	font-size:16px;
 	text-align: left;
@@ -1010,7 +1010,7 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -1906,6 +1906,7 @@ border-bottom-right-radius: 15px;
 
 #team_holly p{
 	font-weight: bold;
+	font-size: 18px;
 	color: black;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -1917,6 +1918,7 @@ border-bottom-right-radius: 15px;
 }
 
 #team_chico p{
+	font-size: 18px;
 	color: whitesmoke;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -1928,6 +1930,7 @@ border-bottom-right-radius: 15px;
 }
 
 #team_carriage p{
+	font-size: 18px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
 	color: black;
