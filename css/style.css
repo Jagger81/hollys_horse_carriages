@@ -1665,6 +1665,10 @@ i.icon-white {
 		width: 50%;
 	}
 
+	#map_info{
+		text-align: center;
+	}
+
 }
     
     /* Smartphones (portrait and landscape) ----------- */
@@ -1694,9 +1698,13 @@ i.icon-white {
  text-align: center;
 }
 
-#main_image {
+#brand_image {
     display: none;
 }		
+
+#map_info{
+	text-align: center;
+}
 
 /* team */
 		
@@ -1880,7 +1888,8 @@ border-bottom-right-radius: 15px;
   margin-bottom: 40px;
   font-size: 46px;
   font-weight: 700;
-  letter-spacing: -1px;
+	letter-spacing: -1px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 #holly{
@@ -1891,12 +1900,39 @@ border-bottom-right-radius: 15px;
 
 #team_holly h1{
 	font-weight: bold;
+	color: whitesmoke;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 #team_holly p{
 	font-weight: bold;
-	font-size: 20px;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
 }
+
+#team_chico h1{
+	font-weight: bold;
+	color: rgba(245, 245, 245, 0.479);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#team_chico p{
+	color: whitesmoke;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#team_carriage h1{
+	font-weight: bold;
+	color: whitesmoke;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#team_carriage p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
 
 #quote {
 	background-color: rgb(198,18,18);
