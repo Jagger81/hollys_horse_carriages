@@ -17,7 +17,7 @@ ul#menu-main > li > a:hover {
 
 
 ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active    {
-	color: #1BAC91;
+	color: rgb(219, 158, 27);            /*  NAVBAR COLOUR ON SELECT */
 }
 #header-wrapper h1 span {
 	color:#1BAC91;
@@ -55,12 +55,12 @@ ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.
 
 /* works */
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-	background: #1BAC91;
-	border-color: #1BAC91;
+	background: rgb(198,18,18);
+	border-color: whitesmoke;
 }
 
 .portfolio .portfolio-overlay {
-	background: #1BAC91;
+	background:  rgb(198,18,18);
 }
 
 /* icon */
