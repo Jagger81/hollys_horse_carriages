@@ -1959,3 +1959,89 @@ i.icon-bgdark:hover {
 i.icon-bgdark.active {
 	background: #e06d5e;
 }
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Center website */
+#photos .main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#photos h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+#photos h3{
+	font-size: 200%;
+	color: #2b2a2a;
+	text-align: center;
+}
+
+#photos p{
+	color: #2b2a2a;
+	text-align: center;
+}
+
+#photos .row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+#photos .row,
+#photos .row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+#photos .column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+#photos .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+#photos .content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+#photos .show {
+  display: block;
+}
+
+/* Style the buttons */
+#photos .btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+#photos .btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+#photos .btn.active {
+  background-color: rgb(198,18,18);
+   color: white;
+}
