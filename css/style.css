@@ -1973,6 +1973,10 @@ i.icon-bgdark.active {
 		width: 100%;
 		display: none; /* Hide columns by default */
 	}
+
+	.navbar-inner .btn-navbar {
+    margin: 10px 10px 20px;
+}
 }
 
 @media (min-width : 480px) {
