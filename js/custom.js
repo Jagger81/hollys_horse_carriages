@@ -1,5 +1,15 @@
 jQuery(document).ready(function($) {
 
+	// preloader fake
+	$(document).ready(function() {
+ 
+		setTimeout(function(){
+				$('body').addClass('loaded');
+		}, 3000);
+	
+	});
+
+	// start of original code
 	$('.scrollup').click(function(){
 		$("html, body").animate({ scrollTop: 0 }, 1000);
 		return false;
