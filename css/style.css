@@ -1609,6 +1609,10 @@ i.icon-white {
 		width:100%;
 	}
 
+	#medal {
+    max-width: 30%;
+    max-height: 30%;
+	}
 }
 
 @media (max-width: 767px) {
@@ -1627,7 +1631,7 @@ i.icon-white {
 	}
 	
 	.navbar-inner .btn-navbar {
-		margin:20px 20px 0;
+		margin: 5px 20px 0px 0px;
 	}
 	
 	.container {
@@ -1646,6 +1650,10 @@ i.icon-white {
 		width: 25%;
 	}
 
+	#brand_image {
+		display:none;
+	}
+	
 }
     
     /* Smaller screens ----------- */
@@ -1669,10 +1677,6 @@ i.icon-white {
 	#map_info{
 		text-align: center;
 	}
-
-    #brand_image {
-    display: none;
-}		
 
 }
     
@@ -1711,7 +1715,6 @@ i.icon-white {
 	text-align: center;
 }
 
-
 /* team */
 		
 #team .team-thumb {
@@ -1747,10 +1750,7 @@ i.icon-white {
 }
 
 #main_image {
-	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: -10px; 
+	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
 }
 
 /* Testimonials Section */
@@ -1850,6 +1850,38 @@ i.icon-white {
 	border-radius:15px;
 }
 
+
+/* Gallery */
+
+#gallery {
+	background: url(../img/gallery-bg.jpg) no-repeat center center fixed;;
+}
+
+.carousel-inner > .item > img{
+	margin:auto;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	text-align: center;
+  	border-radius: 15px;
+}
+
+.thumbnail {
+	border-radius: 15px;
+}
+
+.carousel-caption{
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+#myCarousel {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+/* End of Gallery */
 
 #medal{
 	max-width: 30%;
@@ -1951,9 +1983,12 @@ i.icon-bgdark.active {
 	}
 
 	.navbar-inner .btn-navbar {
-    margin: 10px 10px 20px;
-}
+    margin: 5px 20px 0px 0px;
+	}
 
+	#brand_image {
+    display: none;
+	}
 }
 
 @media (min-width : 480px) {
@@ -1962,6 +1997,7 @@ i.icon-bgdark.active {
 		width: 50%;
 		display: none; /* Hide columns by default */
 	}
+
 }
 
 @media (min-width : 700px) {
@@ -1972,6 +2008,12 @@ i.icon-bgdark.active {
 	}
 }
 
+
+/* Center website */
+#photos .main {
+  max-width: 1000px;
+  margin: auto;
+}
 
 #photos h1 {
   font-size: 50px;
