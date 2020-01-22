@@ -1701,12 +1701,14 @@ i.icon-white {
 
 #brand_image {
     display: none;
+    opacity: 0.5;
 }		
 
 #map_info{
-	text-align: center;
+	text-align: left;
 }
 
+}
 /* team */
 		
 #team .team-thumb {
@@ -1742,7 +1744,10 @@ i.icon-white {
 }
 
 #main_image {
-	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px; 
 }
 
 /* Testimonials Section */
@@ -1842,38 +1847,6 @@ i.icon-white {
 	border-radius:15px;
 }
 
-
-/* Gallery */
-
-#gallery {
-	background: url(../img/gallery-bg.jpg) no-repeat center center fixed;;
-}
-
-.carousel-inner > .item > img{
-	margin:auto;
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 100%;
-  	text-align: center;
-  	border-radius: 15px;
-}
-
-.thumbnail {
-	border-radius: 15px;
-}
-
-.carousel-caption{
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-}
-
-#myCarousel {
-	padding-left: 10px;
-	padding-right: 20px;
-}
-
-/* End of Gallery */
 
 #medal{
 	max-width: 30%;
@@ -1995,12 +1968,6 @@ i.icon-bgdark.active {
 	}
 }
 
-
-/* Center website */
-#photos .main {
-  max-width: 1000px;
-  margin: auto;
-}
 
 #photos h1 {
   font-size: 50px;
