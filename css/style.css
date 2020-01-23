@@ -90,9 +90,9 @@ CONTENTS:
     right: 15px;
 		bottom: 15px;
 		border-radius: 50%;
-		border: 3px solid whitesmoke;
+		border: 3px solid black;
 		border: 3px solid transparent;
-		border-top-color: whitesmoke;
+		border-top-color: black;
 		
 		-webkit-animation: spin 1.5s linear infinite;
 			animation: spin 1.5s linear infinite;
@@ -1251,7 +1251,7 @@ i.icon-bglight.active:hover{
 }
 
 i.icon-bgdark {
-	color: #f7f7f7;
+	color: rgb(198,18,18);
 	background: #333;
 }
 i.icon-bgdark:hover {
