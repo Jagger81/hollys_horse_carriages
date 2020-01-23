@@ -1,11 +1,11 @@
 jQuery(document).ready(function($) {
 
-	// preloader fake
+   	// preloader fake
 	$(document).ready(function() {
  
 		setTimeout(function(){
 				$('body').addClass('loaded');
-		}, 2000);
+		}, 500);
 	
 	});
 
