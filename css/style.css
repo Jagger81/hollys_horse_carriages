@@ -134,6 +134,7 @@ CONTENTS:
 	 
 		#loader-wrapper .loader-section.section-left {
 				left: 0;
+                opacity: 0.8;
                 background: #050815 url(../img/preloader_left.jpg); 
 	            -webkit-background-size: cover;
 	            -moz-background-size: cover;
@@ -143,6 +144,7 @@ CONTENTS:
 		
 		#loader-wrapper .loader-section.section-right {
 				right: 0;
+                opacity: 0.8;
                 background: #050815 url(../img/preloader_right.jpg);
 	            -webkit-background-size: cover;
 	            -moz-background-size: cover;
