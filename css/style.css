@@ -1770,7 +1770,7 @@ i.icon-white {
 	}
 	
 	.navbar-inner .btn-navbar {
-		margin: 5px 20px 20px 0px;
+		margin: 10px 20px 20px 0px;
 	}
 	
 	.container {
@@ -2125,7 +2125,7 @@ i.icon-bgdark.active {
 	}
 
 	.navbar-inner .btn-navbar {
-    margin: 5px 20px 20px 0px;
+    margin: 10px 20px 20px 0px;
 	}
 
 	#brand_image {
