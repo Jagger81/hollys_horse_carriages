@@ -134,7 +134,7 @@ CONTENTS:
 	 
 		#loader-wrapper .loader-section.section-left {
 				left: 0;
-                background: #050815 url(../img/main_coverphoto.jpg) no-repeat center center fixed;
+                background: #050815 url(../img/preloader_left.jpg); 
 	            -webkit-background-size: cover;
 	            -moz-background-size: cover;
 	            -o-background-size: cover;
@@ -143,6 +143,11 @@ CONTENTS:
 		
 		#loader-wrapper .loader-section.section-right {
 				right: 0;
+                background: #050815 url(../img/preloader_right.jpg);
+	            -webkit-background-size: cover;
+	            -moz-background-size: cover;
+	            -o-background-size: cover;
+	            background-size: cover;
 		}
 
 		/* Loaded */
