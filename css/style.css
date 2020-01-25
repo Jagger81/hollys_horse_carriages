@@ -158,8 +158,8 @@ CONTENTS:
 			-ms-transform: translateX(-100%);  /* IE 9 */
 			transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-			-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+			-webkit-transition: all 1.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+                transition: all 1.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 
 		}
 
@@ -168,8 +168,8 @@ CONTENTS:
 			-ms-transform: translateX(100%);  /* IE 9 */
 			transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 
-			-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+			-webkit-transition: all 1.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+                transition: all 1.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 		}
 
 
@@ -186,8 +186,8 @@ CONTENTS:
             -ms-transform: translateY(-100%);
                 transform: translateY(-100%);
  
-        -webkit-transition: all 0.3s 1s ease-out; 
-                transition: all 0.3s 1s ease-out;
+        -webkit-transition: all 0.3s 3s ease-out; 
+                transition: all 0.3s 3s ease-out;
 		}
 
 
