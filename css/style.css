@@ -634,6 +634,10 @@ section.spacer {
 
 .spacer.green {
 	background: url(../img/black.png) 50% 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
 	/*background:#d11a23;               /* background colour */
 }
 
@@ -651,6 +655,10 @@ section.spacer {
 }
 .spacer.orange,.section.orange {
 	background: url(../img/black.png) 50% 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
 }
 
 section.spacer.bg2 {
@@ -1181,6 +1189,10 @@ footer {
 	text-align: center;
 	color: #ddd;
 	padding:50px 0 50px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
 }
 
 footer a {
@@ -1960,6 +1972,10 @@ i.icon-white {
 #testimonials {
 	padding-bottom: 0;
 	background: url(../img/black.png) 50% 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
 }
 
 .noborder {
