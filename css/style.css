@@ -134,22 +134,22 @@ CONTENTS:
 	 
 		#loader-wrapper .loader-section.section-left {
 				left: 0;
-                opacity: 0.9;
-								background: #050815 url(../img/preloader_left.jpg) no-repeat;
-	            -webkit-background-size: cover;
-	            -moz-background-size: cover;
-	            -o-background-size: cover;
-	            background-size: cover;
+        opacity: 0.9;
+				background: black;
+	      -webkit-background-size: cover;
+	      -moz-background-size: cover;
+	      -o-background-size: cover;
+	      background-size: cover;       
 		}
 		
 		#loader-wrapper .loader-section.section-right {
 				right: 0;
-                opacity: 0.9;
-                background: #050815 url(../img/preloader_right.jpg);
-	            -webkit-background-size: cover;
-	            -moz-background-size: cover;
-	            -o-background-size: cover;
-	            background-size: cover;
+        opacity: 0.9;
+        background: black;
+	      -webkit-background-size: cover;
+	      -moz-background-size: cover;
+	      -o-background-size: cover;
+	      background-size: cover;
 		}
 
 		/* Loaded */
@@ -2104,6 +2104,12 @@ border-bottom-right-radius: 15px;
 	background-color: rgb(198,18,18);
 }
 
+#quote_nav {
+	background-color: rgb(198,18,18);
+	margin-top: 10px;
+	padding: 10px;
+}
+
 /* works */
 #filters ul li a:hover h5, #filters ul li a.active h5 {
 	background: rgb(198,18,18);
@@ -2241,4 +2247,25 @@ i.icon-bgdark.active {
    color: white;
 }
 
+/* SELECT FORM FIELD */
+
+#subject {
+	height: 60px;
+	margin-bottom: 30px;
+	background: rgba(227, 231, 228, 1);
+	font-family: 'Ubuntu', sans-serif;
+	border: 0;
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	width: 100%;
+	padding: 0.5em;
+	font-size: 1em;
+	margin-bottom: 1.5em;
+	border-radius: 4px;;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+}
 

@@ -38,6 +38,7 @@
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
+							<button type="button" id="quote_nav" class="btn btn-danger" onclick="window.location.href='#contact'">Request A Quote</button>
 							<li><a title="Our Story" href="#about">Our Story</a></li>
 							<li><a title="What We Offer" href="#services">Services</a></li>
 							<li><a title="Meet The Team" href="#team">Meet The Team</a></li>
@@ -716,7 +717,12 @@
 									</div>
 
 									<div class="field subject form-group">
-										<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+										<select name="subject" class="form_input" name="subject" id="subject" placeholder="Subject">
+											<option selected="selected" disabled="disabled">Subject</option>
+											<option value="Request a Quote">Request a Quote</option>
+											<option value="Check Availability">Check Availability</option>
+											<option value="General Enquiry">General Enquiry</option>
+										</select>
 										<div class="validation"></div>
 									</div>
 
