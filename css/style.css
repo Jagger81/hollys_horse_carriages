@@ -2269,3 +2269,8 @@ i.icon-bgdark.active {
 
 }
 
+.navbar-inverse .navbar-inner {
+	background-repeat: repeat;
+	background-color: rgb(24,24,24);
+	background-image: none;
+}
