@@ -2290,3 +2290,7 @@ i.icon-bgdark.active {
 	background-color: rgb(24,24,24);
 	background-image: none;
 }
+
+#weddingsonline img{
+	max-width: 250px;
+}
