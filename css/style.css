@@ -60,7 +60,7 @@ CONTENTS:
 			margin: -75px 0 0 -75px;
 			border-radius: 50%;
 			border: 3px solid transparent;
-    	border-top-color: black;
+    	border-top-color:rgb(198,18,18);
 			z-index: 1500;
 
 			-webkit-animation: spin 2s linear infinite;
@@ -90,9 +90,9 @@ CONTENTS:
     right: 15px;
 		bottom: 15px;
 		border-radius: 50%;
-		border: 3px solid black;
+		border: 3px solid white;
 		border: 3px solid transparent;
-		border-top-color: black;
+		border-top-color: white;
 		
 		-webkit-animation: spin 1.5s linear infinite;
 			animation: spin 1.5s linear infinite;
@@ -2198,7 +2198,7 @@ i.icon-bgdark.active {
 
 #photos h3{
 	font-size: 200%;
-	color: #2b2a2a;
+	color: whitesmoke;
 	text-align: center;
 }
 
@@ -2214,7 +2214,7 @@ i.icon-bgdark.active {
 /* Add padding BETWEEN each column (if you want) */
 #photos .row,
 #photos .row > .column {
-  padding: 8px;
+	padding: 8px;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -2233,13 +2233,14 @@ i.icon-bgdark.active {
 
 /* Content */
 #photos .content {
-  background-color: white;
-  padding: 10px;
+  background-color:#b11e1e;
+	padding: 10px;
+	border-radius: 10px;	
 }
 
 /* The "show" class is added to the filtered elements */
 #photos .show {
-  display: block;
+	display: block;
 }
 
 /* Style the buttons */
