@@ -1914,9 +1914,15 @@ i.icon-white {
 	max-height: 50%;
 }
 
-#main_image {
+/* #main_image {
 	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
 	margin-top: -25px; 
+}  original settings */
+
+#main_image {
+	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+	margin-top: -25px;
+	max-width: 70%; 
 }
 
 /* Testimonials Section */
