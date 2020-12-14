@@ -2301,3 +2301,31 @@ i.icon-bgdark.active {
 #weddingsonline img{
 	max-width: 250px;
 }
+
+#covid{
+background-color: darkred;
+border-radius: 40px;
+}
+
+#covid p{
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+#note{
+	background-color: darkslategrey;
+	border-radius: 40px;
+	margin-right: 0px;
+	margin-left: 10px;
+	text-align: center;
+	padding-left: 0px;
+	}
+		
+#note p{
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+#note h5{
+		color: white;
+}
