@@ -2163,11 +2163,11 @@ i.icon-bgdark.active {
 	background: #e06d5e;
 }
 
-
+/*
 * {
   box-sizing: border-box;
 }
-
+*/
 
 @media screen and (max-width : 480px) {
 	#photos .column {
