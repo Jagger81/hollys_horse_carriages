@@ -650,6 +650,15 @@ section.spacer {
 	color:#fff;
 }
 
+.section.green2 {
+	background: url(../img/black.png) 50% 0;
+	/*background:#d11a23;               /* background colour */
+}
+
+.spacer.green,.section.green2 h4 {
+	color:#fff;
+}
+
 .spacer.yellow,.section.yellow  {
 	background:#ffe873;
 }
