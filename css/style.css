@@ -2232,13 +2232,13 @@ i.icon-bgdark.active {
 /* Add padding BETWEEN each column (if you want) */
 #photos .row,
 #photos .row > .column {
-	padding: 8px;
+	padding: 0px; /* had to remove padding for photos to display properly */
 }
 
 /* Create three equal columns that floats next to each other */
 #photos .column {
   float: left;
-  /* width: 33.33%; */
+  width: 33.33%;
   display: none; /* Hide columns by default */
 }
 
@@ -2251,9 +2251,14 @@ i.icon-bgdark.active {
 
 /* Content */
 #photos .content {
-  background-color:#b11e1e;
+  background-color:#0f0f0f;
 	padding: 10px;
 	border-radius: 10px;	
+}
+
+#photos .content:hover {
+  background-color:rgba(248, 8, 8, 0.3);
+	
 }
 
 /* The "show" class is added to the filtered elements */
