@@ -2315,8 +2315,13 @@ i.icon-bgdark.active {
 }
 
 #covid{
-background-color: darkred;
-border-radius: 40px;
+/*background-color: darkred;
+border-radius: 40px;*/
+color: darkred;
+}
+
+#covid h5{
+	color: lightgray;
 }
 
 #covid p{
@@ -2325,8 +2330,8 @@ border-radius: 40px;
 	}
 
 #note{
-	background-color: darkslategrey;
-	border-radius: 40px;
+	/*background-color: darkslategrey;
+	border-radius: 40px;*/
 	margin-right: 0px;
 	margin-left: 10px;
 	text-align: center;
