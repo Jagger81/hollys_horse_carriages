@@ -1563,8 +1563,8 @@ i.icon-white {
 .btn-primary {
   color: #ffffff;
   text-shadow: none;
-  background-color: #09828c;
-  *background-color: #09828c;
+  background-color: rgb(198,18,18);
+  *background-color: rgb(198,18,18);
   background-image: none;
   border-color: none;
   filter:none;
